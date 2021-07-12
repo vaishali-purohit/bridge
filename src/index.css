@@ -1,0 +1,106 @@
+body {
+  background-color: white;
+  margin:0;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #0e0e15, #1a1d29);
+  z-index: 1;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .makeStyles-title-6 {
+    font-size: 14px !important;
+  }
+
+  .makeStyles-paper-2 {
+    margin: 22% 0% 0 0% !important;
+  }
+
+  .makeStyles-logo-4 {
+    width: 14vh !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    display: block !important;
+  }
+}
+
+.apexcharts-xaxistooltip {
+  background: #F97E5D !important;
+  color: #181A25 !important;
+  margin-top: 28px !important;
+  padding: 3px !important;
+  font-weight: 400 !important;
+  border:none !important;
+}
+.apexcharts-yaxistooltip {
+  background: #799BFF !important;
+  color: #181A25 !important;
+  margin-left: 4px !important;
+  padding: 3px !important;
+  font-weight: 400 !important;
+  border:none !important;
+  z-index: 12 !important;
+}
+.apexcharts-toolbar {
+  right:14px !important;
+}
+.apexcharts-yaxis-title-text,
+.apexcharts-xaxistooltip-bottom:after,
+.apexcharts-xaxistooltip-bottom:before,
+.apexcharts-yaxistooltip-right:before,
+.apexcharts-yaxistooltip-right:after{
+  display:none!important;
+}
+.apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+  background: rgba(0, 0, 0, 0.7)!important;
+  border-bottom: 1px solid #333 !important;
+}
+.apexcharts-tooltip.apexcharts-theme-light {
+  color: #fff !important;
+  background: rgb(30 30 30 / 80%) !important;
+  border-radius:0 !important;
+  border:none !important;
+}
+.apexcharts-text,
+.apexcharts-xaxis-texts-g text,
+.apexcharts-yaxis-texts-g text {
+  fill:#9098AC !important;
+  font-family:"GTWalsheimLight" !important;
+}
+
+.apexcharts-svg {
+  padding-top:20px;
+}
+
+.custom-icon {
+  width: 32px !important;
+  height: 32px !important;
+  border: 1px solid #41435B;
+  box-sizing: border-box;
+}
+
+.custom-icon img:hover {
+  filter: hue-rotate(0deg) saturate(61.5) brightness(63.5);
+}
+
+
+.MuiPopover-root .MuiList-padding {
+  padding:0 !important;
+}
+.MuiPopover-root .MuiPaper-root {
+  border-radius:0;
+}
+
